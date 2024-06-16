@@ -9,8 +9,7 @@ int main()
 {
     int totalSeconds, minutes, seconds;
 
-    cout << "Enter a number of seconds between 0 and 3600: ";
-    cin >> totalSeconds;
+    totalSeconds = 356;
 
     minutes = totalSeconds / 60;
     seconds = totalSeconds % 60;
