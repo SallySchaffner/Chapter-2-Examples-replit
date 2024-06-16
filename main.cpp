@@ -8,12 +8,10 @@ int main()
 {
   double regularPrice, percentDiscount, discountAmount, reducedPrice;
 
-  cout << "Enter the regular price of the item: ";
-  cin >> regularPrice;
-  cout << "Enter the discount percentage: ";
-  cin >> percentDiscount;
+  regularPrice = 59.95;
+  percentDiscount = 0.2;
 
-  discountAmount = regularPrice * percentDiscount / 100;
+  discountAmount = regularPrice * percentDiscount;
   reducedPrice = regularPrice - discountAmount;
 
   cout << "The discount amount is $" << discountAmount << endl;
