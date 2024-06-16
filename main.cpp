@@ -8,8 +8,8 @@ int main()
 {
   int number, digit1, digit2, digit3, digit4;
 
-  cout << "Enter a 4-digit number: ";
-  cin >> number;
+  number = 6030;
+    
   digit1 = number % 10;  //Extract the first digit
   number = number / 10;  //Discard the rightmost digit
   digit2 = number % 10;  //Extract the new rightmost digit
